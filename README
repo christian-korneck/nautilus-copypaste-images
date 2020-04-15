@@ -3,23 +3,10 @@ nautilus-copypaste-images
 
 nautilus-copypaste-images
 
-Download
---------
-
-Download the [package][dlp] *or* checkout the source:
-
-    $ git clone https://github.com/atareao/nautilus-copypaste-images.git
-
 Installation (Fedora 31)
 ------------------------
     $ sudo dnf -y install nautilus-python
     $ curl -L https://raw.githubusercontent.com/christian-korneck/nautilus-copypaste-images/master/src/nautilus-copypaste-images.py -o /usr/share/nautilus-python/extensions/nautilus-copypaste-images.py
     $ nautilus -q
 
-Installation (Debian)
----------------------
-
-    $ sudo add-apt-repositoy ppa:atareao/nautilus-extensions
-    $ sudo apt-get update
-    $ sudo apt-get install nautilus-copypaste-images
 
